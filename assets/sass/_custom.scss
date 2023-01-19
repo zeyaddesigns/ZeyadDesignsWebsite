@@ -1,0 +1,37 @@
+
+// Syntax-highlighting:
+@import "solarized";
+@import "fontface";
+
+/* silkscreen-regular - latin */
+@font-face {
+    font-family: 'silkscreen';
+    font-style: normal;
+    src: local('silkscreen'),
+         url('../static/fonts/silkscreen/silkscreen-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../static/fonts/silkscreen/silkscreen-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+  }
+  
+body
+{
+    font-family: 'silkscreen';
+}
+
+#content1::after{
+    content: "\a";
+    white-space: pre;
+}
+
+#myfont{
+    font-family: 'silkscreen';
+    font-size: 20px;
+    color: #afd03d;
+}
+
+// h5 {
+//     font-size: 500px;
+// }
+
+// p, ul li, div, span, i, h1, h2, h3, h4, h5, h6, figcaption {  
+//     font-family: 'silkscreen', Arial, sans;  
+//   }

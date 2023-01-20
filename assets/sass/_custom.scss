@@ -30,7 +30,13 @@ body
     font-family: 'silkscreen';
     font-size: 25px;
     color: white;
+    :hover {color: #d03d66}
 }
+
+#test{
+    color: red
+}
+
 
 // h5 {
 //     font-size: 500px;

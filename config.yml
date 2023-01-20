@@ -111,7 +111,7 @@ Params:
       resize: ""
 
     Gallery:
-      resize: "600x"
+      resize: "400x"
 
     Background:
       resize: "1920x"
@@ -133,36 +133,31 @@ Params:
   #   #alt: ""
   #   noscript: true
       
-
 ## Menu items are automatically added to navbar.
 ##   See: https://gohugo.io/content-management/menus/#add-content-to-menus
 Menu:
   Main:
-    # - name: "About"
-    #   # identifier controls the section type (and therewith the appearence).
-    #   identifier: about 
-    #   # url must be an anchor, for smooth scrolling to it when clicking on the menu item.
-    #   url: "/#about"
-    #   # weight controls the order of the menu items.
-    #   weight: 1 
-    - name: "Software"
-      identifier: gallery
-      url: "/#work"
-      weight: 1
-    - name: "Games"
+    - name: "About"
+      # identifier controls the section type (and therewith the appearence).
+      identifier: about 
+      # url must be an anchor, for smooth scrolling to it when clicking on the menu item.
+      url: "/#about"
+      # weight controls the order of the menu items.
+      weight: 1 
+    - name: "Work"
       identifier: gallery
       url: "/#work"
       weight: 2
-    - name: "Blog"
-      identifier: blog
-      url: "/#blog"
-      weight: 3
+    # - name: "Blog"
+    #   identifier: blog
+    #   url: "/#blog"
+    #   weight: 3
     # - name: "Contact"
     #   identifier: contact
     #   url: "/#contact"
     #   weight: 3
-    - name: "Test"
-      # pre makes it possible to use arbitrary HTML before the name, e.g. referencing icons here is possible:
-      pre: '<svg class="icon"><use xlink:href="#icon-external"/></svg>&nbsp;'
-      url: "youtube.com"
-      weight: 4
+    # - name: "Test"
+    # # pre makes it possible to use arbitrary HTML before the name, e.g. referencing icons here is possible:
+    # pre: '<svg class="icon"><use xlink:href="#icon-external"/></svg>&nbsp;'
+    # url: "youtube.com"
+    # weight: 4

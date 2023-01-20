@@ -27,7 +27,7 @@
         </div>
   </header>
 {{ end }}
-
+<!--I think this here is for the logo displaying at the menue bar-->
 <nav class="row middle-xs center-xs {{ if not .IsHome -}} nav-fixed nav-shadow {{- end }}">
   <div class="col-xs-6 col-sm-1 logo" style="{{ if not .IsHome }}visibility: visible;{{- end }}">
     <a href="{{ "#" | relLangURL }}">
@@ -42,6 +42,7 @@
       ) }}
     </a>
   </div>
+  <!--Here is for the menue items themselves-->
     {{ range .Site.Menus.main }}
       <div class="col-xs-3 col-sm-2 nav-item">
         <!-- I add a custom css id "menu" to change the font-->
@@ -49,7 +50,7 @@
       </div>
     {{ end }}
   <div class="col-xs-6 col-sm-1 nav-toggle" style="{{ if not .IsHome -}} visibility: visible; {{- end }}">
-      <a href="" class="nav-icon" onclick="return false">
+      <a href="" class="nav-icon"  onclick="return false">
         {{ partial "icon" "menu" }}
       </a>
   </div>

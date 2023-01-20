@@ -46,7 +46,7 @@ Params:
   #   - origin is the legacy version (similar to https://github.com/tomanistor/osprey)
   theme: "dedark"
   # tagline (followed by a cursor) is shown at the top, below the logo
-  tagline: Zeyad Designs
+  tagline: Zeyad Alsultan
   # mdTagline can be used instead to specify the tagline in Markdown for more customizability.
   #   Note that {cursor} is a placeholder and will be replaced by the actual cursor HTML when rendering.
   #mdTagline:  "## We Make Games{cursor}"
@@ -138,27 +138,31 @@ Params:
 ##   See: https://gohugo.io/content-management/menus/#add-content-to-menus
 Menu:
   Main:
-    - name: ""
-      # identifier controls the section type (and therewith the appearence).
-      identifier: about 
-      # url must be an anchor, for smooth scrolling to it when clicking on the menu item.
-      #url: "/#about"
-      # weight controls the order of the menu items.
-      #weight: 1
-    # - name: "Projects"
-    #   identifier: gallery
-    #   url: "/#work"
-    #   weight: 2
-    # - name: "Blog"
-    #   identifier: blog
-    #   url: "/#blog"
-    #   weight: 3
+    # - name: "About"
+    #   # identifier controls the section type (and therewith the appearence).
+    #   identifier: about 
+    #   # url must be an anchor, for smooth scrolling to it when clicking on the menu item.
+    #   url: "/#about"
+    #   # weight controls the order of the menu items.
+    #   weight: 1 
+    - name: "Software"
+      identifier: gallery
+      url: "/#work"
+      weight: 1
+    - name: "Games"
+      identifier: gallery
+      url: "/#work"
+      weight: 2
+    - name: "Blog"
+      identifier: blog
+      url: "/#blog"
+      weight: 3
     # - name: "Contact"
     #   identifier: contact
     #   url: "/#contact"
-    #   weight: 4
-    # - name: ""
-    #   # pre makes it possible to use arbitrary HTML before the name, e.g. referencing icons here is possible:
-    #   pre: '<svg class="icon"><use xlink:href="#icon-external"/></svg>&nbsp;'
-    #   url: "https://pyotek.dev"
-    #   weight: 5
+    #   weight: 3
+    - name: "Test"
+      # pre makes it possible to use arbitrary HTML before the name, e.g. referencing icons here is possible:
+      pre: '<svg class="icon"><use xlink:href="#icon-external"/></svg>&nbsp;'
+      url: "youtube.com"
+      weight: 4

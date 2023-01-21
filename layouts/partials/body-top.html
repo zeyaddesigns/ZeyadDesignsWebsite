@@ -17,7 +17,8 @@
                    <span id="taglinebody"; style="color: white;"> <br> software engineer</span>
                    <span id="taglinebody"; style="color: #d03d66;"> + </span>
                    <span id="taglinebody"; style="color: white;"> game developer </span>
-                   <!-- <span id="taglinebody"; class="cursor"; style="color: white;">|</span> -->
+                   <span id="taglinebody"; class="cursor"; style="color: #afd03d;"><br>▼</span>
+                   <!-- ↓ ⬇ ↧ ﹀ ˅ ∇ ⌄ ⌵ ⍗ ⍢ ⍫ ⍱ ▼ ▾ ▽ ∇ ▿ Ⓥ ⬇️ 🔽 🔻 👇-->
               </h1>
           {{- end }}
           <noscript>
@@ -49,6 +50,7 @@
         <h3 id="menu"><a href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></h3>
       </div>
     {{ end }}
+  <!--Here is for the menue when scrolled down-->
   <div class="col-xs-6 col-sm-1 nav-toggle" style="{{ if not .IsHome -}} visibility: visible; {{- end }}">
       <a href="" class="nav-icon"  onclick="return false">
         {{ partial "icon" "menu" }}

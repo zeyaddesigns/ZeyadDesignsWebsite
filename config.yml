@@ -137,14 +137,14 @@ Params:
 ##   See: https://gohugo.io/content-management/menus/#add-content-to-menus
 Menu:
   Main:
-    - name: "About"
+    - name: ""
       # identifier controls the section type (and therewith the appearence).
       identifier: about 
       # url must be an anchor, for smooth scrolling to it when clicking on the menu item.
       url: "/#about"
       # weight controls the order of the menu items.
       weight: 1 
-    - name: "Work"
+    - name: ""
       identifier: gallery
       url: "/#work"
       weight: 2

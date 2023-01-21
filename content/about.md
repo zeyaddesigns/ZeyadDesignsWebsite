@@ -5,3 +5,10 @@ draft = false
 +++
 
 I'm a software engineer and game developer who's passionate about solving problems and building robust solutions.
+
+| Project 1       | Are           |
+| :---------------|:-------------:|
+| ![Alt text][id] | right-aligned |
+
+
+[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"

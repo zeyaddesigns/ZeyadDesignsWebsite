@@ -28,8 +28,10 @@
         </div>
   </header>
 {{ end }}
-<!--I think this here is for the logo displaying at the menue bar-->
-<nav class="row middle-xs center-xs {{ if not .IsHome -}} nav-fixed nav-shadow {{- end }}">
+
+<!--The entire menu bar is disabled below, uncomment to enable-->
+
+<!-- <nav disabled class="row middle-xs center-xs {{ if not .IsHome -}} nav-fixed nav-shadow {{- end }}">
   <div class="col-xs-6 col-sm-1 logo" style="{{ if not .IsHome }}visibility: visible;{{- end }}">
     <a href="{{ "#" | relLangURL }}">
       {{ partial "lazyimg" (dict 
@@ -42,21 +44,23 @@
         "noscript" false
       ) }}
     </a>
-  </div>
+  </div> -->
+  
   <!--Here is for the menue items themselves-->
-    {{ range .Site.Menus.main }}
+    <!-- {{ range .Site.Menus.main }}
       <div class="col-xs-3 col-sm-2 nav-item">
-        <!-- I add a custom css id "menu" to change the font-->
-        <h3 id="menu"><a href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></h3>
+        <h3><a href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></h3>
       </div>
-    {{ end }}
-  <!--Here is for the menue when scrolled down-->
-  <div class="col-xs-6 col-sm-1 nav-toggle" style="{{ if not .IsHome -}} visibility: visible; {{- end }}">
+    {{ end }} -->
+
+  <!-- Here is for the menu icon in mobile view-->
+  <!-- <div class="col-xs-6 col-sm-1 nav-toggle" style="{{ if not .IsHome -}} visibility: visible; {{- end }}">
       <a href="" class="nav-icon"  onclick="return false">
         {{ partial "icon" "menu" }}
       </a>
-  </div>
-</nav>
+  </div> -->
+
+<!-- </nav> -->
 
 <section class="nav-full row middle-xs center-xs">
   <div class="col-xs-12">

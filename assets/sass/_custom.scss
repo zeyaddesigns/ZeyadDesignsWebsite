@@ -21,15 +21,37 @@ body, h1, h2, h3
     color: white;
 }
 
-#menu{
-    font-family: 'silkscreen';
-    font-size: 25px;
-    color: white;
-    :hover {color: #d03d66}
-}
-
 .container{
     display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    gap: 50px;
+}
+
+#title{    
+    text-align: left;
+    font-size: 20px;
+    color: #afd03d;
+}
+
+#description {
+    text-align: left;
+    font-size: 15px;
+    margin: 0;
+}
+
+// #menu{
+//     font-family: 'silkscreen';
+//     font-size: 25px;
+//     color: white;
+//     :hover {color: #d03d66}
+// }
+
+#imgvfx{
+    transition: all 0.5s;
+}
+
+#imgvfx:hover
+{
+    transform: scale(1.1);
 }

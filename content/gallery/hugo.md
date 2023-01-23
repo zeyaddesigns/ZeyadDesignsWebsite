@@ -13,7 +13,7 @@ buttons:
   - icon: code
     i18n: code
     url: "https://github.com/spf13/hugo"
-draft: false
+draft: true
 ---
 
 Hugo is one of the most popular open-source static site generators. 

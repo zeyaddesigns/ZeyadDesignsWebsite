@@ -13,7 +13,7 @@ buttons:
   - i18n: code
     icon: code
     url: "https://github.com/kdevo/"
-draft: false
+draft: true
 ---
 
 Author of Osprey Delight.

@@ -3,14 +3,9 @@
 @import "solarized";
 @import "fontface";
   
-body
+body, h1, h2, h3
 {
     font-family: 'silkscreen';
-}
-
-#content1::after{
-    content: "\a";
-    white-space: pre;
 }
 
 #tagline{
@@ -33,15 +28,8 @@ body
     :hover {color: #d03d66}
 }
 
-#test{
-    color: red
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
 }
-
-
-// h5 {
-//     font-size: 500px;
-// }
-
-// p, ul li, div, span, i, h1, h2, h3, h4, h5, h6, figcaption {  
-//     font-family: 'silkscreen', Arial, sans;  
-//   }

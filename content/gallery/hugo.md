@@ -2,7 +2,7 @@
 title: "Hugo"
 subtitle: "Icons that scale."
 date: "2017-05-12T22:25:02-07:00"
-image: "hugo.png"
+image: "project.png"
 alt: "Hugo - a fast and modern static website engine"
 color: "#0a1922"
 hoverColor: "#fff"

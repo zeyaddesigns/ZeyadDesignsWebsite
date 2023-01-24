@@ -67,10 +67,10 @@ Params:
 ##   The type specifies the icon to use. For more information, see: 
 ##   https://github.com/kdevo/osprey-delight/blob/dev/CUSTOMIZING.md#icons
   Social:
-  - type: twitter # references the icon to use
-    url: "https://twitter.com/natlusgames"
-  - type: mail # references the icon to use
-    url: mailto:contact@natlusgames.com
+  # - type: twitter # references the icon to use
+  #   url: "https://twitter.com/natlusgames"
+  # - type: mail # references the icon to use
+  #   url: mailto:contact@natlusgames.com
   # - type: linkedin 
   #   url: ""
   # - type: github

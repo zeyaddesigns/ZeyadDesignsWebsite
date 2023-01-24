@@ -25,7 +25,7 @@ draft = false
     <!--Natlus Engine-->
     <div><img id="imgvfx" src="natlusengine.png" alt="project"></div>
     <div> 
-          <p id="description"> <span id="title">Natlus Engine</span> <br> Currently developing a small 2D engine with C# and the XNA/Monogame framework.
+          <p id="description"> <span id="title">Natlus Engine</span> <br> Currently developing a small 2D engine using C#, .Net and the XNA/Monogame framework.
           <br> <br>
           <!--Status + repo + tags-->
           <img src="https://img.shields.io/badge/Status-In%20progress-%23d0863d">
@@ -42,7 +42,7 @@ draft = false
     <!--3D Rendering Engine-->
     <div><img id="imgvfx" src="diorama3d.png" alt="project"></div>
     <div> 
-          <p id="description"> <span id="title"> 3D Real-time Rendering</span> <br> Developed an interactive renderer in C++ using OpenGL and GLSL. The user can import a 3D diorama, which was modeled in Maya and animated in Unreal Engine, and freely navigate around it using the keyboard. 
+          <p id="description"> <span id="title"> 3D Real-time Rendering</span> <br> Developed an interactive real-time renderer in C++ using OpenGL and GLSL. The project involved modeling a 3D diorama in Maya and animating it in Unreal Engine before importing it to the engine.
           <br> <br>
           <!--Status + repo + tags-->
           <img src="https://img.shields.io/badge/Status-Complete-%233dd0a7">
@@ -74,7 +74,7 @@ draft = false
         <!--Project Survive-->
     <div><img id="imgvfx" src="survive.png" alt="project"></div>
     <div> 
-          <p id="description"> <span id="title"> Project Survive</span> <br> Worked with a group of talented developers to develop a 3D first-person survival game in Unity. I was responsiable for the level design, art direction, and contributed to the overall gameplay design.
+          <p id="description"> <span id="title"> Project Survive</span> <br> Worked with a group of developers to build a 3D first-person survival game in Unity. I was responsiable for the level design, art direction, and contributed to the overall gameplay design.
           <br> <br>
           <!--Status + repo + tags-->
           <img src="https://img.shields.io/badge/Status-Complete-%233dd0a7">

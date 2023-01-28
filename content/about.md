@@ -6,22 +6,6 @@ draft = false
 
 {{< html >}}
 <div class="container">
-    <!--Fesh Away-->
-    <div><img id="imgvfx" src="FeshAway.png" alt="project"></div>
-    <div> 
-          <p id="description"> <span id="title"> Fesh Away</span> <br> Currently working on 2D adventure game about a lost little fish for <a href="https://natlusgames.com/">Natlus Games</a>.
-          <br> <br>
-          <!--Status + repo + tags-->
-          <img src="https://img.shields.io/badge/Status-In%20progress-%23d0863d">
-          <!-- <a href=""><img id="imgvfx" src="https://img.shields.io/badge/animation demo-%23d03d66?logo=youtube&logoColor=white"></a>
-          <a href=""><img id="imgvfx" src="https://img.shields.io/badge/opengl demo-%23d03d66?logo=youtube&logoColor=white"></a> -->
-          <br> <br>
-          <img src="https://img.shields.io/badge/-GDScript-%235d3dd0">
-          <img src="https://img.shields.io/badge/-Godot-%235d3dd0?logo=godotengine&logocolor=white">
-          <img src="https://img.shields.io/badge/-VS Code-%235d3dd0?logo=visualstudiocode&logocolor=white">
-          <img src="https://img.shields.io/badge/-Aseprite-%235d3dd0?logo=aseprite&logocolor=white">
-          <img src="https://img.shields.io/badge/-Affinity Designer-%235d3dd0?logo=affinitydesigner&logocolor=white">
-    </div>
     <!--Natlus Engine-->
     <div><img id="imgvfx" src="natlusengine.png" alt="project"></div>
     <div> 
@@ -42,7 +26,7 @@ draft = false
     <!--3D Rendering Engine-->
     <div><img id="imgvfx" src="diorama3d.png" alt="project"></div>
     <div> 
-          <p id="description"> <span id="title"> 3D Real-time Rendering</span> <br> Developed an interactive real-time renderer in C++ using OpenGL and GLSL. The project involved modeling a 3D diorama in Maya and animating it in Unreal Engine before importing it to the engine.
+          <p id="description"> <span id="title"> 3D Real-time Rendering</span> <br> Developed an interactive real-time renderer in C++ using OpenGL and GLSL. The project involved modelling a 3D diorama in Maya and animating it in Unreal Engine before importing it to the engine.
           <br> <br>
           <!--Status + repo + tags-->
           <img src="https://img.shields.io/badge/Status-Complete-%233dd0a7">
@@ -74,7 +58,7 @@ draft = false
         <!--Project Survive-->
     <div><img id="imgvfx" src="survive.png" alt="project"></div>
     <div> 
-          <p id="description"> <span id="title"> Project Survive</span> <br> Worked with a group of developers to build a 3D first-person survival game in Unity. I was responsiable for the level design, art direction, and contributed to the overall gameplay design.
+          <p id="description"> <span id="title"> Project Survive</span> <br> Worked with a group of developers to build a 3D first-person survival game in Unity. I was responsible for the level design, art direction, and contributed to the overall gameplay design.
           <br> <br>
           <!--Status + repo + tags-->
           <img src="https://img.shields.io/badge/Status-Complete-%233dd0a7">
@@ -120,7 +104,7 @@ draft = false
     <!--Valve Asset Management Software-->
     <!-- <div><img id="imgvfx" src="project.png" alt="project"></div> -->
     <div> 
-          <p id="description"> <span id="title"> Valve Asset Management Software </span> <br> Worked with a global team of IT specialists to develop and deploy a database software that holds asset data, perform analysis and produce risk scores that are crucial to day to day business. 
+          <p id="description"> <span id="title"> Valve Asset Management Software </span> <br> Worked with a global team of IT specialists to develop and deploy a database software that holds asset data, perform analysis, and produce risk scores that are crucial to day to day business. 
           <br> <br>
            <!--Status + repo + tags-->          
           <img src="https://img.shields.io/badge/-SQL-%235d3dd0">

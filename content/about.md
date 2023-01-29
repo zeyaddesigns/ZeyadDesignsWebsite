@@ -58,7 +58,7 @@ draft = false
         <!--Project Survive-->
     <div><img id="imgvfx" src="survive.png" alt="project"></div>
     <div> 
-          <p id="description"> <span id="title"> Project Survive</span> <br> Worked with a group of developers to build a 3D first-person survival game in Unity. I was responsible for the level design, art direction, and contributed to the overall gameplay design.
+          <p id="description"> <span id="title"> Project Survive</span> <br> Worked with a group of developers to build a 3D first-person survival game in Unity. I was responsible for level design, art direction, and contributed to the overall gameplay.
           <br> <br>
           <!--Status + repo + tags-->
           <img src="https://img.shields.io/badge/Status-Complete-%233dd0a7">
@@ -72,7 +72,7 @@ draft = false
     <!--Flight Simulation Application-->
     <!-- <div> <img id="imgvfx" src="project.png" alt="project"> </div> -->
     <div> 
-          <p id="description"> <span id="title"> Flight Simulation Application </span> <br> Worked with a group of developers to build a multithreaded Java software  with a GUI that simulates flight traffic and holds a database for airlines and airports. 
+          <p id="description"> <span id="title"> Flight Simulation Application </span> <br> Worked with a group of developers to build a multithreaded Java software with a GUI that simulates flight traffic control. This involved creating testing plans, unit-tests and reporting bugs to the rest of the team. 
           <br><br>            
           <!--Status + repo + tags-->
           <a href="https://github.com/Caoilinn/F21AS_CW">
@@ -83,10 +83,9 @@ draft = false
     <!--Mains Replacement Prioritisation System Tracker-->
     <!-- <div> <img id="imgvfx" src="project.png" alt="project"> </div> -->
     <div> 
-          <p id="description"> <span id="title"> Mains Replacement Tracking</span> <br> Responsible for production, tracking and auditing the annual risk survey programme for six depots in Scotland, using ArcGIS and various other systems.
+          <p id="description"> <span id="title"> Mains Replacement Tracking</span> <br> Responsible for quality assurance (QA) for the survey programme. This involved tracking and monitoring work output, and reporting anomalies back to the business with corrective and preventative actions. I also utilized multiple in-house software systems to digitise the annual mains survey programme, which successfully delivered over 1500 surveys across Scotland on time.
           <br><br>
           <!--Status + repo + tags-->          
-          <img src="https://img.shields.io/badge/-ArcGIS-%235d3dd0">
           <img src="https://img.shields.io/badge/-SharePoint-%235d3dd0?logo=microsoftsharepoint&logocolor=white">
           <img src="https://img.shields.io/badge/-MS Office 365-%235d3dd0?logo=microsoftoffice&logocolor=white"></p>
     </div>

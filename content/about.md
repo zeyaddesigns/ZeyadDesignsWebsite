@@ -6,6 +6,18 @@ draft = false
 
 {{< html >}}
 <div class="container">
+    <!--Job Will Hunting-->
+    <div><img id="imgvfx" src="BlueTangoStreetLogo.png" alt="project"></div>
+    <div> 
+          <p id="description"> <span id="title">Job Will Hunting</span> <br> Currently working as a Game Programmer with a global team on a debut game for <a href="https://www.bluetangostreet.com/"> Blue Tango Street</a>. I'm responsible for prototyping and implementing gameplay features, technical systems and tools, as well as maintaining documentation, testing, debugging and game optimization.
+          <br> <br>
+          <!--Status + repo + tags-->
+          <img src="https://img.shields.io/badge/Status-In%20progress-%23d0863d">
+          <br> <br>
+          <img src="https://img.shields.io/badge/-C Sharp-%235d3dd0?logo=csharp&logocolor=white">
+          <img src="https://img.shields.io/badge/-Unity-%235d3dd0?logo=unity&logocolor=white">
+          <img src="https://img.shields.io/badge/-Visual Studio-%235d3dd0?logo=visualstudio&logocolor=white">
+    </div>
     <!--Natlus Engine-->
     <div><img id="imgvfx" src="natlusengine.png" alt="project"></div>
     <div> 

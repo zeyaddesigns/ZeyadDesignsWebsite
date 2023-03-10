@@ -95,7 +95,7 @@ draft = false
     <!--Mains Replacement Prioritisation System Tracker-->
     <!-- <div> <img id="imgvfx" src="project.png" alt="project"> </div> -->
     <div> 
-          <p id="description"> <span id="title"> Mains Replacement Tracking</span> <br> Responsible for quality assurance (QA) for the survey programme. This involved tracking and monitoring work output, and reporting anomalies back to the business with corrective and preventative actions. I also utilized multiple in-house software systems to digitise the annual mains survey programme, which successfully delivered over 1500 surveys across Scotland on time.
+          <p id="description"> <span id="title"> Mains Replacement Tracking</span> <br> Responsible for issuing, tracking and monitoring work output, as well as reporting anomalies back to the business with corrective and preventative actions. I also utilized multiple in-house software systems to digitise the annual mains survey programme, which successfully delivered over 1500 surveys across Scotland on time.
           <br><br>
           <!--Status + repo + tags-->          
           <img src="https://img.shields.io/badge/-SharePoint-%235d3dd0?logo=microsoftsharepoint&logocolor=white">

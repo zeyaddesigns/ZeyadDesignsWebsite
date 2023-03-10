@@ -21,7 +21,7 @@ draft = false
     <!--Natlus Engine-->
     <div><img id="imgvfx" src="natlusengine.png" alt="project"></div>
     <div> 
-          <p id="description"> <span id="title">Natlus Engine</span> <br> Currently developing a small 2D engine using C#, .Net and the XNA/Monogame framework.
+          <p id="description"> <span id="title">2D Game Engine</span> <br> Currently developing a small 2D engine using C#, .Net and the XNA/Monogame framework.
           <br> <br>
           <!--Status + repo + tags-->
           <img src="https://img.shields.io/badge/Status-In%20progress-%23d0863d">
@@ -38,7 +38,7 @@ draft = false
     <!--3D Rendering Engine-->
     <div><img id="imgvfx" src="diorama3d.png" alt="project"></div>
     <div> 
-          <p id="description"> <span id="title"> 3D Real-time Rendering</span> <br> Developed an interactive real-time renderer in C++ using OpenGL and GLSL. The project involved modelling a 3D diorama in Maya and animating it in Unreal Engine before importing it to the engine.
+          <p id="description"> <span id="title"> 3D Rendering Engine</span> <br> Developed an interactive real-time rendering engine in C++ using OpenGL and GLSL. The project involved modelling a 3D diorama in Maya and animating it in Unreal Engine before importing it to the engine for rendering and interaction.
           <br> <br>
           <!--Status + repo + tags-->
           <img src="https://img.shields.io/badge/Status-Complete-%233dd0a7">
